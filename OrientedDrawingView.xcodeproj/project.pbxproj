@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95F054B61BC43DF900A59497 /* OrientedDrawingView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 95F054B51BC43DF900A59497 /* OrientedDrawingView.podspec */; settings = {ASSET_TAGS = (); }; };
-		95F054B81BC43EB200A59497 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 95F054B71BC43EB200A59497 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		95F054C41BC440D400A59497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F054BA1BC440D400A59497 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		95F054C51BC440D400A59497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F054BB1BC440D400A59497 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		95F054C61BC440D400A59497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F054BC1BC440D400A59497 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		95F054C71BC440D400A59497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F054BE1BC440D400A59497 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		95F054C81BC440D400A59497 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F054C01BC440D400A59497 /* DrawingView.swift */; settings = {ASSET_TAGS = (); }; };
-		95F054CA1BC440D400A59497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F054C21BC440D400A59497 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		95F3AE621BC4541700EBC383 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3AE611BC4541700EBC383 /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		95F3AE641BC4567200EBC383 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3AE631BC4567200EBC383 /* NavigationController.swift */; settings = {ASSET_TAGS = (); }; };
+		95F054B61BC43DF900A59497 /* OrientedDrawingView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 95F054B51BC43DF900A59497 /* OrientedDrawingView.podspec */; };
+		95F054B81BC43EB200A59497 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 95F054B71BC43EB200A59497 /* LICENSE */; };
+		95F054C41BC440D400A59497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F054BA1BC440D400A59497 /* AppDelegate.swift */; };
+		95F054C51BC440D400A59497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F054BB1BC440D400A59497 /* Assets.xcassets */; };
+		95F054C61BC440D400A59497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F054BC1BC440D400A59497 /* LaunchScreen.storyboard */; };
+		95F054C71BC440D400A59497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F054BE1BC440D400A59497 /* Main.storyboard */; };
+		95F054C81BC440D400A59497 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F054C01BC440D400A59497 /* DrawingView.swift */; };
+		95F054CA1BC440D400A59497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F054C21BC440D400A59497 /* ViewController.swift */; };
+		95F3AE621BC4541700EBC383 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3AE611BC4541700EBC383 /* ImageViewController.swift */; };
+		95F3AE641BC4567200EBC383 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3AE631BC4567200EBC383 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9588D77520AB5C2100059F10 /* OrientedDrawingView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrientedDrawingView.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F054B51BC43DF900A59497 /* OrientedDrawingView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrientedDrawingView.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F054B71BC43EB200A59497 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		95F054BA1BC440D400A59497 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		95F054C11BC440D400A59497 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95F054C21BC440D400A59497 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95F054CC1BC4417900A59497 /* OrientedDrawingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientedDrawingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		95F3AE601BC4480800EBC383 /* OrientedDrawingView.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OrientedDrawingView.xctest; path = "/Users/dennis/dev/OrientedDrawingView/build/Debug-iphoneos/OrientedDrawingView.xctest"; sourceTree = "<absolute>"; };
 		95F3AE611BC4541700EBC383 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		95F3AE631BC4567200EBC383 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +70,7 @@
 				95F3AE651BC4574500EBC383 /* OrientedDrawingViewDemo */,
 				95F054B51BC43DF900A59497 /* OrientedDrawingView.podspec */,
 				95F054B71BC43EB200A59497 /* LICENSE */,
+				9588D77520AB5C2100059F10 /* OrientedDrawingView.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,7 +134,7 @@
 			);
 			name = OrientedDrawingViewTests;
 			productName = DrawingTestTests;
-			productReference = 95F3AE601BC4480800EBC383 /* OrientedDrawingView.xctest */;
+			productReference = 9588D77520AB5C2100059F10 /* OrientedDrawingView.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +143,7 @@
 		95F054851BC4215E00A59497 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Riff Digital";
 				TargetAttributes = {
 					95F0548C1BC4215E00A59497 = {
@@ -253,13 +254,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -298,13 +309,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -323,6 +344,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -337,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.riffdigital.DrawingTest;
 				PRODUCT_NAME = OrientedDrawingView;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -349,6 +372,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.riffdigital.DrawingTest;
 				PRODUCT_NAME = OrientedDrawingView;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

@@ -3,7 +3,6 @@
 //  OrientedDrawingView
 //
 //  Created by Dennis Lysenko on 10/6/15.
-//  Copyright © 2015 Riff Digital. All rights reserved.
 //
 
 import UIKit
@@ -13,8 +12,8 @@ class ImageViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
 
-    @IBAction func goBack(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func goBack(_ sender: AnyObject) {
+        self.dismiss(animated: true)
     }
     
     override func viewDidLoad() {
@@ -23,11 +22,11 @@ class ImageViewController: UIViewController {
         self.imageView.image = self.image
     }
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return [UIInterfaceOrientationMask.Portrait]
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return [.portrait]
     }
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate: Bool {
         return false
     }
 }

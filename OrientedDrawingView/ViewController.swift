@@ -3,7 +3,6 @@
 //  DrawingTest
 //
 //  Created by Dennis Lysenko on 10/6/15.
-//  Copyright © 2015 Riff Digital. All rights reserved.
 //
 
 import UIKit
@@ -30,11 +29,10 @@ class ViewController: UIViewController {
     @IBAction func redo(sender: AnyObject) {
         self.drawingView.redo()
     }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        guard let destination = segue.destinationViewController as? ImageViewController else {
-            assert(false)
-            return
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? ImageViewController else {
+            return assert(false)
         }
         
         destination.image = self.drawingView.generateCorrectlyOrientedImage()
