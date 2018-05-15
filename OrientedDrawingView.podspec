@@ -64,6 +64,7 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios, "8.0"
+  s.swift_version = "4.1"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -77,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/dennislysenko/OrientedDrawingView.git", :tag => "v1.0" }
+  s.source       = { :git => "https://github.com/dennislysenko/OrientedDrawingView.git", :tag => "v1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
