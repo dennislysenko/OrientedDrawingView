@@ -16,13 +16,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OrientedDrawingView"
-  s.version      = "0.0.6"
+  s.version      = "1.0"
   s.summary      = "A view that the user can draw on, with support for keeping the drawing the same when orientation is changed."
 
   s.description  = <<-DESC
                    A device-orientation-conscious drawing view. For example if you draw an arrow pointing to the home button of your device, and rotate it, the OrientedDrawingView will readjust the drawing to make the arrow keep pointing at the home button.
                    
                    Inspired by ACEDrawingView, and provides similar functionality to ACEDrawingView's pen tool, including undoing and setting line width and color.
+
+                   The drawing actions are all Codable so you can easily save them to JSON, etc. and then load them back in later, in case you want to save a non-rasterized version of the drawing.
                    DESC
 
   s.homepage     = "http://gitlab.com/dlysenko/OrientedDrawingView"
@@ -75,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://gitlab.com/dlysenko/OrientedDrawingView.git", :tag => "v0.0.6" }
+  s.source       = { :git => "http://github.com/dennislysenko/OrientedDrawingView.git", :tag => "v1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
